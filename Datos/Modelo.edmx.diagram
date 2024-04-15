@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3e192e57a2cb4d30ada422cf5c9b7382" Name="Diagram1" ZoomLevel="58">
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Arqueo_detalle" Width="1.5" PointX="16" PointY="15.125" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Arqueos" Width="1.5" PointX="13.75" PointY="19.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.CierraCaja" Width="1.5" PointX="0.75" PointY="3.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Denominaciones" Width="1.5" PointX="13.75" PointY="15.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoCaja" Width="1.5" PointX="16" PointY="10.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoCajaDetalle" Width="1.5" PointX="18.25" PointY="10.5" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Movimientos_Anulados" Width="1.5" PointX="2.75" PointY="3.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.PersonaReferencia" Width="1.5" PointX="13.75" PointY="10.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Autorizacion" Width="1.5" PointX="2.75" PointY="6.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Bodega" Width="1.5" PointX="6" PointY="8.375" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Categoria" Width="1.5" PointX="3.75" PointY="26.75" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Cliente" Width="1.5" PointX="6.75" PointY="33.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Empleado" Width="1.5" PointX="3.75" PointY="11" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.EmpleadoHuella" Width="1.5" PointX="6" PointY="56.375" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Linea" Width="1.5" PointX="0.75" PointY="19" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Lotes" Width="1.5" PointX="6" PointY="12" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Marca" Width="1.5" PointX="3.75" PointY="23.75" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Precio_detalle_linea" Width="1.5" PointX="3" PointY="21" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Precio_detalle_Productos" Width="1.5" PointX="8.25" PointY="48.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Precios" Width="1.5" PointX="0.75" PointY="10.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Producto" Width="1.5" PointX="6" PointY="16.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Proveedores" Width="1.5" PointX="6.75" PointY="40.75" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Representante_Cliente" Width="1.5" PointX="12" PointY="35.125" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Representantes" Width="1.5" PointX="9.75" PointY="58" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Tallas" Width="1.5" PointX="0.75" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Compras" Width="1.5" PointX="9" PointY="41.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ComprasDetalle" Width="1.5" PointX="11.25" PointY="25.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ComprasDiario" Width="1.5" PointX="14.25" PointY="24.375" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ComprobanteDiario" Width="1.5" PointX="9" PointY="6.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ComprobanteDiarioDetalle" Width="1.5" PointX="11.25" PointY="9.5" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Cuentas" Width="1.5" PointX="18.75" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Tipo_Cambio_Compra" Width="1.5" PointX="20.75" PointY="8.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TipoCambio" Width="1.5" PointX="20.75" PointY="11.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TipoCambioMensual" Width="1.5" PointX="20.75" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.VentasDiario" Width="1.5" PointX="11.25" PointY="2.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Abonos_Caja" Width="1.5" PointX="18.75" PointY="23.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.AplicacionDocumentos" Width="1.5" PointX="11.25" PointY="53" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.DocumentosCuentasCobrar" Width="1.5" PointX="9" PointY="51.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Devoluciones" Width="1.5" PointX="6" PointY="46.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.DevolucionesDetalle" Width="1.5" PointX="8.25" PointY="25.125" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.DevolucionesProductoDañado" Width="1.5" PointX="9" PointY="10.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.DevolucionesProductoDañadoDetalle" Width="1.5" PointX="11.25" PointY="20.125" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Kardex" Width="1.5" PointX="8.25" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoInventario" Width="1.5" PointX="18.75" PointY="4.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoInventario_Autorizacion" Width="1.5" PointX="16.75" PointY="19.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoInventarioDetalle" Width="1.5" PointX="21" PointY="4.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.MovimientoInventarioDetalle_Autorizacion" Width="1.5" PointX="19" PointY="19.75" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TiposAjustes" Width="1.5" PointX="14" PointY="6.125" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Logins" Width="1.5" PointX="20.75" PointY="23.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Permisos" Width="1.5" PointX="21.75" PointY="17.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Roles" Width="1.5" PointX="0.75" PointY="25.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.UsuariosRolesPermisos" Width="1.5" PointX="6" PointY="59.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.AjustesModulos" Width="1.5" PointX="16.25" PointY="6.5" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Consecutivos" Width="1.5" PointX="22.75" PointY="8.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Correos_enviar" Width="1.5" PointX="22.75" PointY="11.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.CuentasContables" Width="1.5" PointX="22.75" PointY="21.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.DatosEmpresa" Width="1.5" PointX="22.75" PointY="25.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ModuloSistema" Width="1.5" PointX="22.75" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.ParametrosCuentasContables" Width="1.5" PointX="23.75" PointY="3.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.SECTORES" Width="1.5" PointX="23.75" PointY="17.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.servidor_de_correo" Width="1.5" PointX="24.75" PointY="6.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Terminos" Width="1.5" PointX="6.75" PointY="30.25" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TipoComprobante" Width="1.5" PointX="24.75" PointY="9.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TipoDocumento" Width="1.5" PointX="11.75" PointY="6.375" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.TiposDocumentosCx" Width="1.5" PointX="24.75" PointY="12.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.UnidadMedida" Width="1.5" PointX="3.75" PointY="17.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.FormaPago" Width="1.5" PointX="6" PointY="52.5" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.FormaPagoVenta" Width="1.5" PointX="8.25" PointY="2.625" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Prestamos" Width="1.5" PointX="9" PointY="31.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Prestamos_Detalle" Width="1.5" PointX="11.25" PointY="14.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.SaldoFavorCliente" Width="1.5" PointX="13.75" PointY="27.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Venta" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.VentaDetalle" Width="1.5" PointX="8.25" PointY="19.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.VerCuentas" Width="1.5" PointX="15.75" PointY="27.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.Login_Empleado_Cargar" Width="1.5" PointX="17.75" PointY="27.875" />
+        <EntityTypeShape EntityType="SAFNISA_LITEModel.UsuariosLogueados" Width="1.5" PointX="24.75" PointY="21.875" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Arqueo_de__id_ar__6B44E613" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Arqueo_de__id_de__6C390A4C" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_MovimientoCaja_PersonaReferencia" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_MovimientoCajaDetalle_MovimientoCaja" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Kardex__id_bodeg__236943A5" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Producto__id_cat__5535A963" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Documento__id_cl__795DFB40" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Represent__id_Cl__2E3BD7D3" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_Prestamos_Cliente" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_Venta_Cliente" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Lotes__id_usuari__047AA831" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Prestamos__id_emplea__5AB9788F" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Venta__id_emplea__5AB9788F" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_EmpleadoHuella_Empleado" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_UsuariosRolesPermisos_Empleado" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Precio_detalle_Linea__id_linea__5535A963" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK_Producto_Linea" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Kardex__id_lote__056ECC6A" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Producto__id_mar__5629CD9C" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Precio_detalle_Producto__id_producto__5535A963" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__ComprasDe__id_pr__3552E9B6" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__DevolucDeta__id_pr__6166761E" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__DevolucProdD__id_pr__6166761E" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Kardex__id_produ__3AA1AEB8" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__PrestamosDet__id_pr__6166761E" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Producto__id_uni__5812160E" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__VentaDeta__id_pr__6166761E" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Compras__id_prov__308E3499" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Represent__id_re__75035A77" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__ComprasDe__id_co__345EC57D" />
+        <AssociationConnector Association="SAFNISA_LITEModel.fk_CD_compra" />
+        <AssociationConnector Association="SAFNISA_LITEModel.fk_compras_diario" />
+        <AssociationConnector Association="SAFNISA_LITEModel.fk_cd_cdd" />
+        <AssociationConnector Association="SAFNISA_LITEModel.fk_ventas_diario" />
+        <AssociationConnector Association="SAFNISA_LITEModel.fk_VD_venta" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Aplicacio__id_do__6F7F8B4B" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Aplicacio__id_do__7073AF84" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__DevolucDeta__id_dev__607251E5" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__DevolucProdD__id_dev__607251E5" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Movimient__id_mo__5C37ACAD" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Movimient__id_mo__5C37ACADD" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__AjustesMo__id_aj__31B762FC" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__TiposAjus__id_ti__1D4655FB" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Prestamos__id_termin__6497E884" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__Venta__id_termin__6497E884" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__FormaPago__id_fo__12FDD1B2" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__FormaPago__id_ve__1209AD79" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__PrestamosDet__id_ve__607251E5" />
+        <AssociationConnector Association="SAFNISA_LITEModel.FK__VentaDeta__id_ve__607251E5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
