@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Presentacion.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProyectoSkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DevExpress Style</Value>
+    </Setting>
+    <Setting Name="Impresora_Voucher" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Bodega_Venta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TIENDA</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

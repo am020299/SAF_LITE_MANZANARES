@@ -1,0 +1,10 @@
+/Datos/obj/**
+/Entidades/obj/**
+/Negocio/obj/**
+/Presentacion/obj/**
+/Socket/obj/**
+/Datos/bin/**
+/Entidades/bin/**
+/Negocio/bin/**
+/Presentacion/bin/**
+/Socket/bin/**
